@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<!DOCTYPE Sample [
+<!ELEMENT Sample ( ( a* , b*)*)>
+<!ELEMENT a (#PCDATA)>
+<!ELEMENT b (#PCDATA)> ]>
+<Sample>
+<a>hi</a>
+<b>mom</b>
+<b> how are</b>
+<a> you </a>
+</Sample>
